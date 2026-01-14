@@ -16,7 +16,7 @@ namespace GonzabaNMC_6_EndpointsEightToTen.Controllers;
         {
             _restaurantPickerService=restaurantPickerService;
         }
-    [HttpPost("Picker/{Category}")]
+    [HttpPost("MexicanPizzaOrFastFood/{Category}")]
     public string Picker(string Category)
     {
         return _restaurantPickerService.Picker(Category);
