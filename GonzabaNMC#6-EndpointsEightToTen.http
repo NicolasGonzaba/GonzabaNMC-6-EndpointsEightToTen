@@ -1,0 +1,6 @@
+@GonzabaNMC_6_EndpointsEightToTen_HostAddress = http://localhost:5159
+
+GET {{GonzabaNMC_6_EndpointsEightToTen_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
